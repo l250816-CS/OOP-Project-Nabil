@@ -1,0 +1,18 @@
+20 150 30 25
+30 1
+20 2
+20 4
+18 6
+15 8
+15 10
+12 11
+8 0
+N N N B N B N N B N B U N
+N B B R R R D B N N B U B
+N N B U N B D N B N B U N
+N B B U B N D B N N B U B
+N N B U N B D B N N B U N
+N B B U B N D N B N B U B
+N N B U N B D B N N B U N
+N B B U B N D B B B B U B
+R R R U N B R R R R R U N

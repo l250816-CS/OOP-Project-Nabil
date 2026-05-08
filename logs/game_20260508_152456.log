@@ -1,0 +1,8 @@
+15:24:56 [INFO] ========== GAME SESSION STARTED ==========
+15:24:56 [INFO] GamePage: on_unpause called. Current level: 1
+15:24:56 [DEBUG] GamePage: Update tick - Level 1, Wave 1, State: 1
+15:25:01 [DEBUG] GamePage: Update tick - Level 1, Wave 1, State: 1
+15:25:06 [DEBUG] GamePage: Update tick - Level 1, Wave 1, State: 1
+15:25:11 [DEBUG] GamePage: Update tick - Level 1, Wave 1, State: 1
+15:25:14 [INFO] EXIT SHORTCUT: Ctrl+Shift+Q pressed - exiting game
+15:25:15 [INFO] ========== GAME SESSION ENDED ==========

@@ -1,0 +1,79 @@
+#pragma once
+
+#include <list>
+#include <memory>
+#include <utility>
+#include "Map/BaseTile.hpp"
+#include "Utils/DynamicArray.hpp"
+
+class EnemyPathTile;
+
+/**
+ * @class Map
+ * @brief Represents the map of a level
+ *
+ * Initiliazed as part of the level
+ */
+class Map {
+public:
+  using enemy_path_list = std::list<std::shared_ptr<EnemyPathTile>>;
+
+public:
+  /**
+   * @brief Constructor with rvalues
+   */
+  Map(DynamicArray<DynamicArray<std::shared_ptr<BaseTile>>>&&,
+      std::list<std::shared_ptr<EnemyPathTile>>&& path);
+
+  /**
+   * @brief Map coordinates to a tile
+   *
+   * Given a coordinates in the game, return the tile on which these coordinates
+   * where
+   *
+   * @return Return the tile if it's in the game or nullptr instead
+   */
+  std::shared_ptr<BaseTile> map_coords_to_tile(float x, float y) const;
+
+  /**
+   * @brief Map Game Coordinates to a tile indices
+   */
+  std::pair<int, int> map_coords_to_indices(float x, float y) const;
+
+  /**
+   * @brief Return the tile at given indices
+   */
+  std::shared_ptr<BaseTile> get_tile(int i, int j) const;
+
+  /**
+   * @brief Get First Enemy Position
+   */
+  const Vector<float> get_initial_enemy_position() const;
+
+  /**
+   * @brief Return the first destination for the enemies spawned
+   *
+   * @details The first enemy position is the same as the center of the first
+   * enemy path tile
+   */
+  const Vector<float> get_initial_enemy_destination() const;
+
+  /**
+   * @brief Return an iterator to the beginning of the enemy path
+   */
+  enemy_path_list::iterator get_first_enemy_tile();
+
+  /**
+   * @brief Return an iterator to the final tile of the enemy path
+   */
+  enemy_path_list::iterator get_last_enemy_tile();
+
+  /**
+   * @brief: Return `true` if these coordinates map to values in the map
+   */
+  bool is_on_map(Vector<float> pos) const;
+
+private:
+  DynamicArray<DynamicArray<std::shared_ptr<BaseTile>>> grid;
+  std::list<std::shared_ptr<EnemyPathTile>> enemy_path;
+};

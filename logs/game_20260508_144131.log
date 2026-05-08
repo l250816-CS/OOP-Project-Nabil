@@ -1,0 +1,21 @@
+14:41:31 [INFO] ========== GAME SESSION STARTED ==========
+14:41:31 [INFO] GamePage: on_unpause called. Current level: 1
+14:41:31 [DEBUG] GamePage: Update tick - Level 1, Wave 1, State: 1
+14:41:32 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:41:32 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:41:32 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+14:41:32 [INFO] WinPage: Loaded level_num=1, score=1000, level_count=3
+14:41:34 [INFO] WinPage: Levels button clicked
+14:41:34 [DEBUG] BUTTON CLICKED: LEVELS
+14:41:36 [INFO] GamePage: on_unpause called. Current level: 1
+14:41:38 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:41:38 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:41:38 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+14:41:38 [INFO] WinPage: Loaded level_num=1, score=1000, level_count=3
+14:41:40 [INFO] WinPage: Restart button clicked - reloading level 1
+14:41:40 [DEBUG] BUTTON CLICKED: RESTART
+14:41:40 [DEBUG] PageManager: replace_page called, popping old page
+14:41:40 [INFO] GamePage: on_unpause called. Current level: 1
+14:41:40 [DEBUG] PageManager: creating new page of type 2
+14:41:40 [INFO] GamePage: on_unpause called. Current level: 1
+14:41:40 [DEBUG] PageManager: new page created successfully

@@ -1,0 +1,18 @@
+10 50 15 10
+20 1
+15 3
+13 5
+12 7
+12 9
+10 11
+9 13
+3 0
+N N N N N N N N N B B B N
+N B N B N N N B B R R D B
+B B B B B B B R R U B D B
+R R R R D B B U B B B D B
+B B B B D B B U B B B D B
+N B N B R R R U B B B D B
+N N N B B B B B B B B D B
+N N N N N N N B N B B R R
+N N N N N N N N N N B B B

@@ -1,0 +1,41 @@
+#pragma once
+
+#include <memory>
+#include "Components/StandardButton.hpp"
+#include "SFML/Graphics/Color.hpp"
+#include "SFML/Graphics/RenderTarget.hpp"
+
+#define BUTTON_TEXT_COLOR 104, 66, 38
+
+class TextButton : public StandardButton {
+public:
+public:
+  TextButton(std::string text, unsigned x, unsigned y, int font_size,
+             StandardButton::ButtonSize, StandardButton::ButtonType);
+
+  ~TextButton() = default;
+
+  /*
+   * @brief Render the text above the rectangle in the middle of the rect
+   */
+  void render(RenderData) override;
+
+  /*
+   * @brief Change button text
+   */
+  void set_text(std::string txt);
+
+  /*
+   * @brief Change button color
+   */
+  void set_color(sf::Color clr);
+
+  /*
+   * @brief Transform the button's text
+   */
+  void transform_text(int x = 0, int y = 0);
+
+private:
+  sf::Text text;
+  sf::Font font;
+};

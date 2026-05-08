@@ -1,0 +1,28 @@
+16:07:24 [INFO] ========== GAME SESSION STARTED ==========
+16:07:24 [INFO] GamePage: on_unpause called. Current level: 1
+16:07:24 [DEBUG] GamePage: Update tick - Level 1, Wave 1, State: 1
+16:07:25 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+16:07:25 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+16:07:25 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+16:07:25 [INFO] WinPage: Loaded level_num=1, score=1000, level_count=3
+16:07:26 [INFO] WinPage: Continue button clicked - current_level=1, level_count=3
+16:07:26 [INFO] WinPage: Loading next level: 2
+16:07:26 [DEBUG] BUTTON CLICKED: CONTINUE_NEXT_LEVEL
+16:07:26 [INFO] GamePage: on_unpause called. Current level: 2
+16:07:27 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+16:07:27 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+16:07:27 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+16:07:27 [INFO] WinPage: Loaded level_num=2, score=1000, level_count=3
+16:07:27 [INFO] WinPage: Continue button clicked - current_level=2, level_count=3
+16:07:27 [INFO] WinPage: Loading next level: 3
+16:07:27 [DEBUG] BUTTON CLICKED: CONTINUE_NEXT_LEVEL
+16:07:28 [INFO] GamePage: on_unpause called. Current level: 3
+16:07:28 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+16:07:28 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+16:07:28 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+16:07:28 [INFO] WinPage: Loaded level_num=3, score=1000, level_count=3
+16:07:29 [INFO] WinPage: Continue button clicked - current_level=3, level_count=3
+16:07:29 [INFO] WinPage: All levels completed, returning to levels page
+16:07:29 [DEBUG] BUTTON CLICKED: CONTINUE_ALL_DONE
+16:07:33 [INFO] EXIT SHORTCUT: Ctrl+Shift+Q pressed - exiting game
+16:07:33 [INFO] ========== GAME SESSION ENDED ==========

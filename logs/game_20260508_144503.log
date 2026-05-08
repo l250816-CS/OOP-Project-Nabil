@@ -1,0 +1,23 @@
+14:45:03 [INFO] ========== GAME SESSION STARTED ==========
+14:45:03 [INFO] GamePage: on_unpause called. Current level: 2
+14:45:03 [DEBUG] GamePage: Update tick - Level 2, Wave 1, State: 1
+14:45:04 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:45:04 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:45:04 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+14:45:04 [INFO] WinPage: Loaded level_num=2, score=1000, level_count=3
+14:45:05 [INFO] WinPage: Continue button clicked - current_level=2, level_count=3
+14:45:05 [INFO] WinPage: Loading next level: 3
+14:45:05 [DEBUG] BUTTON CLICKED: CONTINUE_NEXT_LEVEL
+14:45:05 [INFO] GamePage: on_unpause called. Current level: 3
+14:45:09 [DEBUG] GamePage: Update tick - Level 3, Wave 1, State: 1
+14:45:10 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:45:10 [WARNING] CHEAT USED: WIN_LEVEL (Ctrl+W)
+14:45:10 [INFO] GamePage: Level WON state detected, transitioning to WIN_PAGE
+14:45:10 [INFO] WinPage: Loaded level_num=3, score=1000, level_count=3
+14:45:11 [INFO] WinPage: Restart button clicked - reloading level 3
+14:45:11 [DEBUG] BUTTON CLICKED: RESTART
+14:45:11 [DEBUG] PageManager: replace_page called, popping old page
+14:45:11 [INFO] GamePage: on_unpause called. Current level: 3
+14:45:11 [DEBUG] PageManager: creating new page of type 2
+14:45:11 [INFO] GamePage: on_unpause called. Current level: 3
+14:45:11 [DEBUG] PageManager: new page created successfully
